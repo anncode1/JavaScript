@@ -77,6 +77,29 @@ var operacionOR = valor1 || valor2;
 console.log("La operacion valor1 || valor2 es: " + operacionOR );
 
 
+//3. Cinco Operaciones matematicas 
+//Operacion suma +
+var numero1 = valores[1]; //5
+var numero2 = valores[5]; //2
+var resultadoSuma = numero1 + numero2;
+console.log("Resutlado Suma: " + resultadoSuma);
+
+//Operacion resta -
+var resultadoResta = numero1 - numero2;
+console.log("Resutlado Resta: " + resultadoResta);
+
+//Operacion multiplicacion *
+var resultadoMultiplicacion = numero1 * numero2;
+console.log("Resutlado Multiplicacion: " + resultadoMultiplicacion);
+
+//Operacion div /
+var resultadoDiv = numero1 / numero2;
+console.log("Resutlado Div: " + resultadoDiv);
+
+//Operacion Mod %
+var resultadoMod = numero1 % numero2;
+console.log("Resutlado Mod: " + resultadoMod);
+
 
 
 

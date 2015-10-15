@@ -27,6 +27,32 @@ for(indice in dias){
 	console.log(dias[indice]);
 }
 
+var numero = 8;
+
+switch(numero){
+	case 5:
+		console.log(numero);
+		break;
+	case 8:
+		console.log(numero);
+		break;
+	case 20:
+		console.log(numero);
+		break;
+	default:
+		console.log("Si nada conincidió");
+		break;
+
+}
+
+
+
+
+
+
+
+
+
 
 
 

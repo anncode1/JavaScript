@@ -15,4 +15,4 @@ console.log(radioButton);
 
 //TRAIGO UNO Y SOLO UN ELEMENTO A PARTIR DE SU id
 var miParrafo = document.getElementById("id_parrafo1");
-console.log(miParrafo);
+console.log("parrafo" + miParrafo);

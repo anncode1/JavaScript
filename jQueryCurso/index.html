@@ -4,26 +4,68 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<title>Hola Mundo JS</title>
-		<script type="text/javascript" src="js/utils.js"></script>
-		<script type="text/javascript" src="js/controlFlujo.js"></script>
-		<script type="text/javascript" src="js/funciones.js"></script>
-		<script type="text/javascript" src="js/breakcontinue.js"></script>
-		<script type="text/javascript" src="js/accesoDOM.js"></script>
+
+		
 	</head>
 	<body>
 		<!-- Comentario -->
 		<!-- comentario2 -->
 		<h1>Hola Mundo JS</h1>
 		<p name="parrafo1" onclick="alert('Diste Click! :)');" >Mi texto dale click</p>
+		
 		<p id="id_parrafo1" name="parrafo2" >Hola parrafos</p>
 		<p id="id_parrafo2" name="parrafo2">Etiqueta parrafo con id</p>
-		
-		<input type="radio" name="decision">Sí
-		<br>
-		<input type="radio" name="decision">No
 
+		<input type="radio" name="decision"/>Sí
+		<br/>
+		<input type="radio" name="decision"/>No
+		<br/>
+		<br/>
+		<hr/>
 
+		<h1>Eventos</h1>
+
+		<div id="info" style="border:1px solid;width:300px;height:300px;padding:20px;">	
+		</div>
+
+		<br><br>
+		<hr>
+		<h1>Formulario</h1>
+
+		<form id="miFormulario">
+			<input onkeyup="mostrarTexto();" type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+			<br/>
+
+			<textarea onkeyup="mostrarTexto();" id="direccion" name="direccion" placeholder="Dirección"></textarea>
+
+			<br>
+
+			<select onchange="mostrarTexto();" id="opcionColor" name="opcionColor">
+				<option value="0">Selecciona un Color</option>
+				<option value="1">Azul</option>
+				<option value="2">Rosa</option>
+				<option value="3">Verde</option>
+			</select>
+		</form>
+		<br><br>
+		<hr>
+		<h3>Datos Capturados Formulario</h3>
+		<div id="resultadoForm"></div>
+		<br><br>
+		<br><br>
+		<br><br>
+		<br><br>
+		<br><br>
+		<br><br>
 		
 	</body>
+	<!-- JavaScript para que la pagina cargu mas rápido -->
+	<script type="text/javascript" src="js/utils.js"></script>
+	<script type="text/javascript" src="js/controlFlujo.js"></script>
+	<script type="text/javascript" src="js/funciones.js"></script>
+	<script type="text/javascript" src="js/breakcontinue.js"></script>
+	<script type="text/javascript" src="js/accesoDOM.js"></script>
+	<script type="text/javascript" src="js/eventos.js"></script>
+	<script type="text/javascript" src="js/formularios.js"></script>
 
 </html>
